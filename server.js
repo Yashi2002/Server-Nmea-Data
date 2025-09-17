@@ -32,6 +32,8 @@ const schema = {
             name: { type: "string" },
             notes: { type: "string" },
             created_at: { type: "string" },
+            session_start: { type: "string" },
+            session_end: { type: "string" },
             updated_at: { type: "string" },
             deleted_at: { type: "string" },
           },
@@ -270,6 +272,52 @@ const schema = {
             ],
           },
         },
+session_ownship_active_vessels: {
+  type: "array",
+  items: {
+    type: "object",
+    properties: {
+      id: { type: "number" },
+      session_id: { type: "number" },
+      name: { type: "string" },
+      imo: { type: "string" },
+      mmsi: { type: "string" },
+      is_ownership: { type: "boolean" },
+      track: {
+        type: "array",
+        items: {
+          type: "object",
+          properties: {
+            vdr_log_id: { type: "number" },
+            nmea_sentence_id: { type: "number" },
+            speed_over_ground: { type: "number" },
+            course_over_ground: { type: "number" },
+            status: { type: "number" },
+            latitude: { type: "number" },
+            longitude: { type: "number" },
+            timestamp: { type: "string" },
+            created_at: { type: "string" },
+            updated_at: {},
+            deleted_at: {}
+          },
+          required: [
+            "vdr_log_id",
+            "nmea_sentence_id",
+            "speed_over_ground",
+            "course_over_ground",
+            "status",
+            "latitude",
+            "longitude",
+            "timestamp",
+            "created_at"
+          ]
+        }
+      }
+    },
+    required: ["id", "session_id", "name", "imo", "mmsi", "is_ownership", "track"]
+  }
+},
+
         session_ships: {
           type: "object",
           properties: {
@@ -378,6 +426,7 @@ const schema = {
         "session_ownship_telemetry",
         "session_ships_ais",
         "session_ships",
+  "session_ownship_active_vessels",
         "session_alarm",
         "session_cpa_tcpa",
         "start_time",
