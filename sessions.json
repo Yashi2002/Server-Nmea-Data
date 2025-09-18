@@ -3969,11 +3969,486 @@
       "mmsi": "523456789",
       "is_ownership": true,
       "track": [
-        { "timestamp": "2025-09-09T10:04:00Z", "latitude": 15.0015, "longitude": 121.0280, "speed_over_ground": 9.5, "course_over_ground": 84.4, "status": 0 },
-        { "timestamp": "2025-09-09T10:05:00Z", "latitude": 15.0019, "longitude": 121.0292, "speed_over_ground": 9.7, "course_over_ground": 84.8, "status": 0 },
-        { "timestamp": "2025-09-09T10:06:00Z", "latitude": 15.0024, "longitude": 121.0305, "speed_over_ground": 9.9, "course_over_ground": 85.1, "status": 0 },
-        { "timestamp": "2025-09-09T10:07:00Z", "latitude": 15.0028, "longitude": 121.0317, "speed_over_ground": 10.0, "course_over_ground": 85.3, "status": 0 },
-        { "timestamp": "2025-09-09T10:08:00Z", "latitude": 15.0033, "longitude": 121.0330, "speed_over_ground": 10.2, "course_over_ground": 85.6, "status": 0 }
+        {
+          "timestamp": "2025-09-17T12:00:00Z",
+          "latitude": 15.001,
+          "longitude": 121.028,
+          "speed_over_ground": 9.5,
+          "course_over_ground": 84.4,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:01Z",
+          "latitude": 15.0011,
+          "longitude": 121.0281,
+          "speed_over_ground": 9.51,
+          "course_over_ground": 84.42,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:02Z",
+          "latitude": 15.0012,
+          "longitude": 121.0282,
+          "speed_over_ground": 9.52,
+          "course_over_ground": 84.44,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:03Z",
+          "latitude": 15.0013,
+          "longitude": 121.0283,
+          "speed_over_ground": 9.53,
+          "course_over_ground": 84.46,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:04Z",
+          "latitude": 15.0014,
+          "longitude": 121.0284,
+          "speed_over_ground": 9.54,
+          "course_over_ground": 84.48,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:05Z",
+          "latitude": 15.0015,
+          "longitude": 121.0285,
+          "speed_over_ground": 9.55,
+          "course_over_ground": 84.5,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:06Z",
+          "latitude": 15.0016,
+          "longitude": 121.0286,
+          "speed_over_ground": 9.56,
+          "course_over_ground": 84.52,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:07Z",
+          "latitude": 15.0017,
+          "longitude": 121.0287,
+          "speed_over_ground": 9.57,
+          "course_over_ground": 84.54,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:08Z",
+          "latitude": 15.0018,
+          "longitude": 121.0288,
+          "speed_over_ground": 9.58,
+          "course_over_ground": 84.56,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:09Z",
+          "latitude": 15.0019,
+          "longitude": 121.0289,
+          "speed_over_ground": 9.59,
+          "course_over_ground": 84.58,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:10Z",
+          "latitude": 15.002,
+          "longitude": 121.029,
+          "speed_over_ground": 9.6,
+          "course_over_ground": 84.6,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:11Z",
+          "latitude": 15.0021,
+          "longitude": 121.0291,
+          "speed_over_ground": 9.61,
+          "course_over_ground": 84.62,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:12Z",
+          "latitude": 15.0022,
+          "longitude": 121.0292,
+          "speed_over_ground": 9.62,
+          "course_over_ground": 84.64,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:13Z",
+          "latitude": 15.0023,
+          "longitude": 121.0293,
+          "speed_over_ground": 9.63,
+          "course_over_ground": 84.66,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:14Z",
+          "latitude": 15.0024,
+          "longitude": 121.0294,
+          "speed_over_ground": 9.64,
+          "course_over_ground": 84.68,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:15Z",
+          "latitude": 15.0025,
+          "longitude": 121.0295,
+          "speed_over_ground": 9.65,
+          "course_over_ground": 84.7,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:16Z",
+          "latitude": 15.0026,
+          "longitude": 121.0296,
+          "speed_over_ground": 9.66,
+          "course_over_ground": 84.72,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:17Z",
+          "latitude": 15.0027,
+          "longitude": 121.0297,
+          "speed_over_ground": 9.67,
+          "course_over_ground": 84.74,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:18Z",
+          "latitude": 15.0028,
+          "longitude": 121.0298,
+          "speed_over_ground": 9.68,
+          "course_over_ground": 84.76,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:19Z",
+          "latitude": 15.0029,
+          "longitude": 121.0299,
+          "speed_over_ground": 9.69,
+          "course_over_ground": 84.78,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:20Z",
+          "latitude": 15.003,
+          "longitude": 121.03,
+          "speed_over_ground": 9.7,
+          "course_over_ground": 84.8,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:21Z",
+          "latitude": 15.0031,
+          "longitude": 121.0301,
+          "speed_over_ground": 9.71,
+          "course_over_ground": 84.82,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:22Z",
+          "latitude": 15.0032,
+          "longitude": 121.0302,
+          "speed_over_ground": 9.72,
+          "course_over_ground": 84.84,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:23Z",
+          "latitude": 15.0033,
+          "longitude": 121.0303,
+          "speed_over_ground": 9.73,
+          "course_over_ground": 84.86,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:24Z",
+          "latitude": 15.0034,
+          "longitude": 121.0304,
+          "speed_over_ground": 9.74,
+          "course_over_ground": 84.88,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:25Z",
+          "latitude": 15.0035,
+          "longitude": 121.0305,
+          "speed_over_ground": 9.75,
+          "course_over_ground": 84.9,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:26Z",
+          "latitude": 15.0036,
+          "longitude": 121.0306,
+          "speed_over_ground": 9.76,
+          "course_over_ground": 84.92,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:27Z",
+          "latitude": 15.0037,
+          "longitude": 121.0307,
+          "speed_over_ground": 9.77,
+          "course_over_ground": 84.94,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:28Z",
+          "latitude": 15.0038,
+          "longitude": 121.0308,
+          "speed_over_ground": 9.78,
+          "course_over_ground": 84.96,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:29Z",
+          "latitude": 15.0039,
+          "longitude": 121.0309,
+          "speed_over_ground": 9.79,
+          "course_over_ground": 84.98,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:30Z",
+          "latitude": 15.004,
+          "longitude": 121.031,
+          "speed_over_ground": 9.8,
+          "course_over_ground": 85.0,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:31Z",
+          "latitude": 15.0041,
+          "longitude": 121.0311,
+          "speed_over_ground": 9.81,
+          "course_over_ground": 85.02,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:32Z",
+          "latitude": 15.0042,
+          "longitude": 121.0312,
+          "speed_over_ground": 9.82,
+          "course_over_ground": 85.04,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:33Z",
+          "latitude": 15.0043,
+          "longitude": 121.0313,
+          "speed_over_ground": 9.83,
+          "course_over_ground": 85.06,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:34Z",
+          "latitude": 15.0044,
+          "longitude": 121.0314,
+          "speed_over_ground": 9.84,
+          "course_over_ground": 85.08,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:35Z",
+          "latitude": 15.0045,
+          "longitude": 121.0315,
+          "speed_over_ground": 9.85,
+          "course_over_ground": 85.1,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:36Z",
+          "latitude": 15.0046,
+          "longitude": 121.0316,
+          "speed_over_ground": 9.86,
+          "course_over_ground": 85.12,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:37Z",
+          "latitude": 15.0047,
+          "longitude": 121.0317,
+          "speed_over_ground": 9.87,
+          "course_over_ground": 85.14,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:38Z",
+          "latitude": 15.0048,
+          "longitude": 121.0318,
+          "speed_over_ground": 9.88,
+          "course_over_ground": 85.16,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:39Z",
+          "latitude": 15.0049,
+          "longitude": 121.0319,
+          "speed_over_ground": 9.89,
+          "course_over_ground": 85.18,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:40Z",
+          "latitude": 15.005,
+          "longitude": 121.032,
+          "speed_over_ground": 9.9,
+          "course_over_ground": 85.2,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:41Z",
+          "latitude": 15.0051,
+          "longitude": 121.0321,
+          "speed_over_ground": 9.91,
+          "course_over_ground": 85.22,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:42Z",
+          "latitude": 15.0052,
+          "longitude": 121.0322,
+          "speed_over_ground": 9.92,
+          "course_over_ground": 85.24,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:43Z",
+          "latitude": 15.0053,
+          "longitude": 121.0323,
+          "speed_over_ground": 9.93,
+          "course_over_ground": 85.26,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:44Z",
+          "latitude": 15.0054,
+          "longitude": 121.0324,
+          "speed_over_ground": 9.94,
+          "course_over_ground": 85.28,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:45Z",
+          "latitude": 15.0055,
+          "longitude": 121.0325,
+          "speed_over_ground": 9.95,
+          "course_over_ground": 85.3,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:46Z",
+          "latitude": 15.0056,
+          "longitude": 121.0326,
+          "speed_over_ground": 9.96,
+          "course_over_ground": 85.32,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:47Z",
+          "latitude": 15.0057,
+          "longitude": 121.0327,
+          "speed_over_ground": 9.97,
+          "course_over_ground": 85.34,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:48Z",
+          "latitude": 15.0058,
+          "longitude": 121.0328,
+          "speed_over_ground": 9.98,
+          "course_over_ground": 85.36,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:49Z",
+          "latitude": 15.0059,
+          "longitude": 121.0329,
+          "speed_over_ground": 9.99,
+          "course_over_ground": 85.38,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:50Z",
+          "latitude": 15.006,
+          "longitude": 121.033,
+          "speed_over_ground": 10.0,
+          "course_over_ground": 85.4,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:51Z",
+          "latitude": 15.0061,
+          "longitude": 121.0331,
+          "speed_over_ground": 10.01,
+          "course_over_ground": 85.42,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:52Z",
+          "latitude": 15.0062,
+          "longitude": 121.0332,
+          "speed_over_ground": 10.02,
+          "course_over_ground": 85.44,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:53Z",
+          "latitude": 15.0063,
+          "longitude": 121.0333,
+          "speed_over_ground": 10.03,
+          "course_over_ground": 85.46,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:54Z",
+          "latitude": 15.0064,
+          "longitude": 121.0334,
+          "speed_over_ground": 10.04,
+          "course_over_ground": 85.48,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:55Z",
+          "latitude": 15.0065,
+          "longitude": 121.0335,
+          "speed_over_ground": 10.05,
+          "course_over_ground": 85.5,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:56Z",
+          "latitude": 15.0066,
+          "longitude": 121.0336,
+          "speed_over_ground": 10.06,
+          "course_over_ground": 85.52,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:57Z",
+          "latitude": 15.0067,
+          "longitude": 121.0337,
+          "speed_over_ground": 10.07,
+          "course_over_ground": 85.54,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:58Z",
+          "latitude": 15.0068,
+          "longitude": 121.0338,
+          "speed_over_ground": 10.08,
+          "course_over_ground": 85.56,
+          "status": 0
+        },
+        {
+          "timestamp": "2025-09-17T12:00:59Z",
+          "latitude": 15.0069,
+          "longitude": 121.0339,
+          "speed_over_ground": 10.09,
+          "course_over_ground": 85.58,
+          "status": 0
+        }
       ]
     },
     {
@@ -3983,11 +4458,486 @@
       "mmsi": "623456789",
       "is_ownership": false,
       "track": [
-        { "timestamp": "2025-09-09T10:05:30Z", "latitude": 15.0101, "longitude": 121.0355, "speed_over_ground": 11.2, "course_over_ground": 102.7, "status": 1 },
-        { "timestamp": "2025-09-09T10:06:30Z", "latitude": 15.0107, "longitude": 121.0371, "speed_over_ground": 11.3, "course_over_ground": 103.0, "status": 1 },
-        { "timestamp": "2025-09-09T10:07:30Z", "latitude": 15.0113, "longitude": 121.0386, "speed_over_ground": 11.1, "course_over_ground": 103.4, "status": 1 },
-        { "timestamp": "2025-09-09T10:08:30Z", "latitude": 15.0119, "longitude": 121.0402, "speed_over_ground": 11.4, "course_over_ground": 103.7, "status": 1 },
-        { "timestamp": "2025-09-09T10:09:30Z", "latitude": 15.0124, "longitude": 121.0417, "speed_over_ground": 11.5, "course_over_ground": 104.0, "status": 1 }
+        {
+          "timestamp": "2025-09-17T12:00:00Z",
+          "latitude": 15.01,
+          "longitude": 121.035,
+          "speed_over_ground": 11.2,
+          "course_over_ground": 102.7,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:01Z",
+          "latitude": 15.0101,
+          "longitude": 121.0351,
+          "speed_over_ground": 11.21,
+          "course_over_ground": 102.72,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:02Z",
+          "latitude": 15.0102,
+          "longitude": 121.0352,
+          "speed_over_ground": 11.22,
+          "course_over_ground": 102.74,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:03Z",
+          "latitude": 15.0103,
+          "longitude": 121.0353,
+          "speed_over_ground": 11.23,
+          "course_over_ground": 102.76,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:04Z",
+          "latitude": 15.0104,
+          "longitude": 121.0354,
+          "speed_over_ground": 11.24,
+          "course_over_ground": 102.78,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:05Z",
+          "latitude": 15.0105,
+          "longitude": 121.0355,
+          "speed_over_ground": 11.25,
+          "course_over_ground": 102.8,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:06Z",
+          "latitude": 15.0106,
+          "longitude": 121.0356,
+          "speed_over_ground": 11.26,
+          "course_over_ground": 102.82,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:07Z",
+          "latitude": 15.0107,
+          "longitude": 121.0357,
+          "speed_over_ground": 11.27,
+          "course_over_ground": 102.84,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:08Z",
+          "latitude": 15.0108,
+          "longitude": 121.0358,
+          "speed_over_ground": 11.28,
+          "course_over_ground": 102.86,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:09Z",
+          "latitude": 15.0109,
+          "longitude": 121.0359,
+          "speed_over_ground": 11.29,
+          "course_over_ground": 102.88,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:10Z",
+          "latitude": 15.011,
+          "longitude": 121.036,
+          "speed_over_ground": 11.3,
+          "course_over_ground": 102.9,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:11Z",
+          "latitude": 15.0111,
+          "longitude": 121.0361,
+          "speed_over_ground": 11.31,
+          "course_over_ground": 102.92,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:12Z",
+          "latitude": 15.0112,
+          "longitude": 121.0362,
+          "speed_over_ground": 11.32,
+          "course_over_ground": 102.94,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:13Z",
+          "latitude": 15.0113,
+          "longitude": 121.0363,
+          "speed_over_ground": 11.33,
+          "course_over_ground": 102.96,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:14Z",
+          "latitude": 15.0114,
+          "longitude": 121.0364,
+          "speed_over_ground": 11.34,
+          "course_over_ground": 102.98,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:15Z",
+          "latitude": 15.0115,
+          "longitude": 121.0365,
+          "speed_over_ground": 11.35,
+          "course_over_ground": 103.0,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:16Z",
+          "latitude": 15.0116,
+          "longitude": 121.0366,
+          "speed_over_ground": 11.36,
+          "course_over_ground": 103.02,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:17Z",
+          "latitude": 15.0117,
+          "longitude": 121.0367,
+          "speed_over_ground": 11.37,
+          "course_over_ground": 103.04,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:18Z",
+          "latitude": 15.0118,
+          "longitude": 121.0368,
+          "speed_over_ground": 11.38,
+          "course_over_ground": 103.06,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:19Z",
+          "latitude": 15.0119,
+          "longitude": 121.0369,
+          "speed_over_ground": 11.39,
+          "course_over_ground": 103.08,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:20Z",
+          "latitude": 15.012,
+          "longitude": 121.037,
+          "speed_over_ground": 11.4,
+          "course_over_ground": 103.1,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:21Z",
+          "latitude": 15.0121,
+          "longitude": 121.0371,
+          "speed_over_ground": 11.41,
+          "course_over_ground": 103.12,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:22Z",
+          "latitude": 15.0122,
+          "longitude": 121.0372,
+          "speed_over_ground": 11.42,
+          "course_over_ground": 103.14,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:23Z",
+          "latitude": 15.0123,
+          "longitude": 121.0373,
+          "speed_over_ground": 11.43,
+          "course_over_ground": 103.16,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:24Z",
+          "latitude": 15.0124,
+          "longitude": 121.0374,
+          "speed_over_ground": 11.44,
+          "course_over_ground": 103.18,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:25Z",
+          "latitude": 15.0125,
+          "longitude": 121.0375,
+          "speed_over_ground": 11.45,
+          "course_over_ground": 103.2,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:26Z",
+          "latitude": 15.0126,
+          "longitude": 121.0376,
+          "speed_over_ground": 11.46,
+          "course_over_ground": 103.22,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:27Z",
+          "latitude": 15.0127,
+          "longitude": 121.0377,
+          "speed_over_ground": 11.47,
+          "course_over_ground": 103.24,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:28Z",
+          "latitude": 15.0128,
+          "longitude": 121.0378,
+          "speed_over_ground": 11.48,
+          "course_over_ground": 103.26,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:29Z",
+          "latitude": 15.0129,
+          "longitude": 121.0379,
+          "speed_over_ground": 11.49,
+          "course_over_ground": 103.28,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:30Z",
+          "latitude": 15.013,
+          "longitude": 121.038,
+          "speed_over_ground": 11.5,
+          "course_over_ground": 103.3,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:31Z",
+          "latitude": 15.0131,
+          "longitude": 121.0381,
+          "speed_over_ground": 11.51,
+          "course_over_ground": 103.32,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:32Z",
+          "latitude": 15.0132,
+          "longitude": 121.0382,
+          "speed_over_ground": 11.52,
+          "course_over_ground": 103.34,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:33Z",
+          "latitude": 15.0133,
+          "longitude": 121.0383,
+          "speed_over_ground": 11.53,
+          "course_over_ground": 103.36,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:34Z",
+          "latitude": 15.0134,
+          "longitude": 121.0384,
+          "speed_over_ground": 11.54,
+          "course_over_ground": 103.38,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:35Z",
+          "latitude": 15.0135,
+          "longitude": 121.0385,
+          "speed_over_ground": 11.55,
+          "course_over_ground": 103.4,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:36Z",
+          "latitude": 15.0136,
+          "longitude": 121.0386,
+          "speed_over_ground": 11.56,
+          "course_over_ground": 103.42,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:37Z",
+          "latitude": 15.0137,
+          "longitude": 121.0387,
+          "speed_over_ground": 11.57,
+          "course_over_ground": 103.44,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:38Z",
+          "latitude": 15.0138,
+          "longitude": 121.0388,
+          "speed_over_ground": 11.58,
+          "course_over_ground": 103.46,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:39Z",
+          "latitude": 15.0139,
+          "longitude": 121.0389,
+          "speed_over_ground": 11.59,
+          "course_over_ground": 103.48,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:40Z",
+          "latitude": 15.014,
+          "longitude": 121.039,
+          "speed_over_ground": 11.6,
+          "course_over_ground": 103.5,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:41Z",
+          "latitude": 15.0141,
+          "longitude": 121.0391,
+          "speed_over_ground": 11.61,
+          "course_over_ground": 103.52,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:42Z",
+          "latitude": 15.0142,
+          "longitude": 121.0392,
+          "speed_over_ground": 11.62,
+          "course_over_ground": 103.54,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:43Z",
+          "latitude": 15.0143,
+          "longitude": 121.0393,
+          "speed_over_ground": 11.63,
+          "course_over_ground": 103.56,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:44Z",
+          "latitude": 15.0144,
+          "longitude": 121.0394,
+          "speed_over_ground": 11.64,
+          "course_over_ground": 103.58,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:45Z",
+          "latitude": 15.0145,
+          "longitude": 121.0395,
+          "speed_over_ground": 11.65,
+          "course_over_ground": 103.6,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:46Z",
+          "latitude": 15.0146,
+          "longitude": 121.0396,
+          "speed_over_ground": 11.66,
+          "course_over_ground": 103.62,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:47Z",
+          "latitude": 15.0147,
+          "longitude": 121.0397,
+          "speed_over_ground": 11.67,
+          "course_over_ground": 103.64,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:48Z",
+          "latitude": 15.0148,
+          "longitude": 121.0398,
+          "speed_over_ground": 11.68,
+          "course_over_ground": 103.66,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:49Z",
+          "latitude": 15.0149,
+          "longitude": 121.0399,
+          "speed_over_ground": 11.69,
+          "course_over_ground": 103.68,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:50Z",
+          "latitude": 15.015,
+          "longitude": 121.04,
+          "speed_over_ground": 11.7,
+          "course_over_ground": 103.7,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:51Z",
+          "latitude": 15.0151,
+          "longitude": 121.0401,
+          "speed_over_ground": 11.71,
+          "course_over_ground": 103.72,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:52Z",
+          "latitude": 15.0152,
+          "longitude": 121.0402,
+          "speed_over_ground": 11.72,
+          "course_over_ground": 103.74,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:53Z",
+          "latitude": 15.0153,
+          "longitude": 121.0403,
+          "speed_over_ground": 11.73,
+          "course_over_ground": 103.76,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:54Z",
+          "latitude": 15.0154,
+          "longitude": 121.0404,
+          "speed_over_ground": 11.74,
+          "course_over_ground": 103.78,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:55Z",
+          "latitude": 15.0155,
+          "longitude": 121.0405,
+          "speed_over_ground": 11.75,
+          "course_over_ground": 103.8,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:56Z",
+          "latitude": 15.0156,
+          "longitude": 121.0406,
+          "speed_over_ground": 11.76,
+          "course_over_ground": 103.82,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:57Z",
+          "latitude": 15.0157,
+          "longitude": 121.0407,
+          "speed_over_ground": 11.77,
+          "course_over_ground": 103.84,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:58Z",
+          "latitude": 15.0158,
+          "longitude": 121.0408,
+          "speed_over_ground": 11.78,
+          "course_over_ground": 103.86,
+          "status": 1
+        },
+        {
+          "timestamp": "2025-09-17T12:00:59Z",
+          "latitude": 15.0159,
+          "longitude": 121.0409,
+          "speed_over_ground": 11.79,
+          "course_over_ground": 103.88,
+          "status": 1
+        }
       ]
     },
     {
@@ -3997,11 +4947,486 @@
       "mmsi": "723456789",
       "is_ownership": false,
       "track": [
-        { "timestamp": "2025-09-09T10:06:10Z", "latitude": 14.9950, "longitude": 121.0152, "speed_over_ground": 13.4, "course_over_ground": 268.9, "status": 5 },
-        { "timestamp": "2025-09-09T10:07:10Z", "latitude": 14.9947, "longitude": 121.0136, "speed_over_ground": 13.5, "course_over_ground": 269.2, "status": 5 },
-        { "timestamp": "2025-09-09T10:08:10Z", "latitude": 14.9944, "longitude": 121.0121, "speed_over_ground": 13.6, "course_over_ground": 269.4, "status": 5 },
-        { "timestamp": "2025-09-09T10:09:10Z", "latitude": 14.9940, "longitude": 121.0106, "speed_over_ground": 13.7, "course_over_ground": 269.6, "status": 5 },
-        { "timestamp": "2025-09-09T10:10:10Z", "latitude": 14.9937, "longitude": 121.0091, "speed_over_ground": 13.8, "course_over_ground": 269.9, "status": 5 }
+        {
+          "timestamp": "2025-09-17T12:00:00Z",
+          "latitude": 14.995,
+          "longitude": 121.0152,
+          "speed_over_ground": 13.4,
+          "course_over_ground": 268.9,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:01Z",
+          "latitude": 14.9951,
+          "longitude": 121.0153,
+          "speed_over_ground": 13.41,
+          "course_over_ground": 268.92,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:02Z",
+          "latitude": 14.9952,
+          "longitude": 121.0154,
+          "speed_over_ground": 13.42,
+          "course_over_ground": 268.94,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:03Z",
+          "latitude": 14.9953,
+          "longitude": 121.0155,
+          "speed_over_ground": 13.43,
+          "course_over_ground": 268.96,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:04Z",
+          "latitude": 14.9954,
+          "longitude": 121.0156,
+          "speed_over_ground": 13.44,
+          "course_over_ground": 268.98,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:05Z",
+          "latitude": 14.9955,
+          "longitude": 121.0157,
+          "speed_over_ground": 13.45,
+          "course_over_ground": 269.0,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:06Z",
+          "latitude": 14.9956,
+          "longitude": 121.0158,
+          "speed_over_ground": 13.46,
+          "course_over_ground": 269.02,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:07Z",
+          "latitude": 14.9957,
+          "longitude": 121.0159,
+          "speed_over_ground": 13.47,
+          "course_over_ground": 269.04,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:08Z",
+          "latitude": 14.9958,
+          "longitude": 121.016,
+          "speed_over_ground": 13.48,
+          "course_over_ground": 269.06,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:09Z",
+          "latitude": 14.9959,
+          "longitude": 121.0161,
+          "speed_over_ground": 13.49,
+          "course_over_ground": 269.08,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:10Z",
+          "latitude": 14.996,
+          "longitude": 121.0162,
+          "speed_over_ground": 13.5,
+          "course_over_ground": 269.1,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:11Z",
+          "latitude": 14.9961,
+          "longitude": 121.0163,
+          "speed_over_ground": 13.51,
+          "course_over_ground": 269.12,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:12Z",
+          "latitude": 14.9962,
+          "longitude": 121.0164,
+          "speed_over_ground": 13.52,
+          "course_over_ground": 269.14,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:13Z",
+          "latitude": 14.9963,
+          "longitude": 121.0165,
+          "speed_over_ground": 13.53,
+          "course_over_ground": 269.16,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:14Z",
+          "latitude": 14.9964,
+          "longitude": 121.0166,
+          "speed_over_ground": 13.54,
+          "course_over_ground": 269.18,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:15Z",
+          "latitude": 14.9965,
+          "longitude": 121.0167,
+          "speed_over_ground": 13.55,
+          "course_over_ground": 269.2,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:16Z",
+          "latitude": 14.9966,
+          "longitude": 121.0168,
+          "speed_over_ground": 13.56,
+          "course_over_ground": 269.22,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:17Z",
+          "latitude": 14.9967,
+          "longitude": 121.0169,
+          "speed_over_ground": 13.57,
+          "course_over_ground": 269.24,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:18Z",
+          "latitude": 14.9968,
+          "longitude": 121.017,
+          "speed_over_ground": 13.58,
+          "course_over_ground": 269.26,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:19Z",
+          "latitude": 14.9969,
+          "longitude": 121.0171,
+          "speed_over_ground": 13.59,
+          "course_over_ground": 269.28,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:20Z",
+          "latitude": 14.997,
+          "longitude": 121.0172,
+          "speed_over_ground": 13.6,
+          "course_over_ground": 269.3,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:21Z",
+          "latitude": 14.9971,
+          "longitude": 121.0173,
+          "speed_over_ground": 13.61,
+          "course_over_ground": 269.32,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:22Z",
+          "latitude": 14.9972,
+          "longitude": 121.0174,
+          "speed_over_ground": 13.62,
+          "course_over_ground": 269.34,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:23Z",
+          "latitude": 14.9973,
+          "longitude": 121.0175,
+          "speed_over_ground": 13.63,
+          "course_over_ground": 269.36,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:24Z",
+          "latitude": 14.9974,
+          "longitude": 121.0176,
+          "speed_over_ground": 13.64,
+          "course_over_ground": 269.38,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:25Z",
+          "latitude": 14.9975,
+          "longitude": 121.0177,
+          "speed_over_ground": 13.65,
+          "course_over_ground": 269.4,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:26Z",
+          "latitude": 14.9976,
+          "longitude": 121.0178,
+          "speed_over_ground": 13.66,
+          "course_over_ground": 269.42,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:27Z",
+          "latitude": 14.9977,
+          "longitude": 121.0179,
+          "speed_over_ground": 13.67,
+          "course_over_ground": 269.44,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:28Z",
+          "latitude": 14.9978,
+          "longitude": 121.018,
+          "speed_over_ground": 13.68,
+          "course_over_ground": 269.46,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:29Z",
+          "latitude": 14.9979,
+          "longitude": 121.0181,
+          "speed_over_ground": 13.69,
+          "course_over_ground": 269.48,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:30Z",
+          "latitude": 14.998,
+          "longitude": 121.0182,
+          "speed_over_ground": 13.7,
+          "course_over_ground": 269.5,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:31Z",
+          "latitude": 14.9981,
+          "longitude": 121.0183,
+          "speed_over_ground": 13.71,
+          "course_over_ground": 269.52,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:32Z",
+          "latitude": 14.9982,
+          "longitude": 121.0184,
+          "speed_over_ground": 13.72,
+          "course_over_ground": 269.54,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:33Z",
+          "latitude": 14.9983,
+          "longitude": 121.0185,
+          "speed_over_ground": 13.73,
+          "course_over_ground": 269.56,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:34Z",
+          "latitude": 14.9984,
+          "longitude": 121.0186,
+          "speed_over_ground": 13.74,
+          "course_over_ground": 269.58,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:35Z",
+          "latitude": 14.9985,
+          "longitude": 121.0187,
+          "speed_over_ground": 13.75,
+          "course_over_ground": 269.6,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:36Z",
+          "latitude": 14.9986,
+          "longitude": 121.0188,
+          "speed_over_ground": 13.76,
+          "course_over_ground": 269.62,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:37Z",
+          "latitude": 14.9987,
+          "longitude": 121.0189,
+          "speed_over_ground": 13.77,
+          "course_over_ground": 269.64,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:38Z",
+          "latitude": 14.9988,
+          "longitude": 121.019,
+          "speed_over_ground": 13.78,
+          "course_over_ground": 269.66,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:39Z",
+          "latitude": 14.9989,
+          "longitude": 121.0191,
+          "speed_over_ground": 13.79,
+          "course_over_ground": 269.68,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:40Z",
+          "latitude": 14.999,
+          "longitude": 121.0192,
+          "speed_over_ground": 13.8,
+          "course_over_ground": 269.7,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:41Z",
+          "latitude": 14.9991,
+          "longitude": 121.0193,
+          "speed_over_ground": 13.81,
+          "course_over_ground": 269.72,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:42Z",
+          "latitude": 14.9992,
+          "longitude": 121.0194,
+          "speed_over_ground": 13.82,
+          "course_over_ground": 269.74,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:43Z",
+          "latitude": 14.9993,
+          "longitude": 121.0195,
+          "speed_over_ground": 13.83,
+          "course_over_ground": 269.76,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:44Z",
+          "latitude": 14.9994,
+          "longitude": 121.0196,
+          "speed_over_ground": 13.84,
+          "course_over_ground": 269.78,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:45Z",
+          "latitude": 14.9995,
+          "longitude": 121.0197,
+          "speed_over_ground": 13.85,
+          "course_over_ground": 269.8,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:46Z",
+          "latitude": 14.9996,
+          "longitude": 121.0198,
+          "speed_over_ground": 13.86,
+          "course_over_ground": 269.82,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:47Z",
+          "latitude": 14.9997,
+          "longitude": 121.0199,
+          "speed_over_ground": 13.87,
+          "course_over_ground": 269.84,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:48Z",
+          "latitude": 14.9998,
+          "longitude": 121.02,
+          "speed_over_ground": 13.88,
+          "course_over_ground": 269.86,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:49Z",
+          "latitude": 14.9999,
+          "longitude": 121.0201,
+          "speed_over_ground": 13.89,
+          "course_over_ground": 269.88,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:50Z",
+          "latitude": 15.0,
+          "longitude": 121.0202,
+          "speed_over_ground": 13.9,
+          "course_over_ground": 269.9,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:51Z",
+          "latitude": 15.0001,
+          "longitude": 121.0203,
+          "speed_over_ground": 13.91,
+          "course_over_ground": 269.92,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:52Z",
+          "latitude": 15.0002,
+          "longitude": 121.0204,
+          "speed_over_ground": 13.92,
+          "course_over_ground": 269.94,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:53Z",
+          "latitude": 15.0003,
+          "longitude": 121.0205,
+          "speed_over_ground": 13.93,
+          "course_over_ground": 269.96,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:54Z",
+          "latitude": 15.0004,
+          "longitude": 121.0206,
+          "speed_over_ground": 13.94,
+          "course_over_ground": 269.98,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:55Z",
+          "latitude": 15.0005,
+          "longitude": 121.0207,
+          "speed_over_ground": 13.95,
+          "course_over_ground": 270.0,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:56Z",
+          "latitude": 15.0006,
+          "longitude": 121.0208,
+          "speed_over_ground": 13.96,
+          "course_over_ground": 270.02,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:57Z",
+          "latitude": 15.0007,
+          "longitude": 121.0209,
+          "speed_over_ground": 13.97,
+          "course_over_ground": 270.04,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:58Z",
+          "latitude": 15.0008,
+          "longitude": 121.021,
+          "speed_over_ground": 13.98,
+          "course_over_ground": 270.06,
+          "status": 5
+        },
+        {
+          "timestamp": "2025-09-17T12:00:59Z",
+          "latitude": 15.0009,
+          "longitude": 121.0211,
+          "speed_over_ground": 13.99,
+          "course_over_ground": 270.08,
+          "status": 5
+        }
       ]
     },
     {
@@ -4011,11 +5436,486 @@
       "mmsi": "823456789",
       "is_ownership": false,
       "track": [
-        { "timestamp": "2025-09-09T10:06:50Z", "latitude": 14.9935, "longitude": 121.0110, "speed_over_ground": 7.9, "course_over_ground": 312.3, "status": 3 },
-        { "timestamp": "2025-09-09T10:07:50Z", "latitude": 14.9940, "longitude": 121.0101, "speed_over_ground": 8.0, "course_over_ground": 312.5, "status": 3 },
-        { "timestamp": "2025-09-09T10:08:50Z", "latitude": 14.9946, "longitude": 121.0093, "speed_over_ground": 8.1, "course_over_ground": 312.8, "status": 3 },
-        { "timestamp": "2025-09-09T10:09:50Z", "latitude": 14.9951, "longitude": 121.0085, "speed_over_ground": 8.2, "course_over_ground": 313.0, "status": 3 },
-        { "timestamp": "2025-09-09T10:10:50Z", "latitude": 14.9956, "longitude": 121.0076, "speed_over_ground": 8.3, "course_over_ground": 313.3, "status": 3 }
+        {
+          "timestamp": "2025-09-17T12:00:00Z",
+          "latitude": 14.9935,
+          "longitude": 121.011,
+          "speed_over_ground": 7.9,
+          "course_over_ground": 312.3,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:01Z",
+          "latitude": 14.9936,
+          "longitude": 121.0111,
+          "speed_over_ground": 7.91,
+          "course_over_ground": 312.32,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:02Z",
+          "latitude": 14.9937,
+          "longitude": 121.0112,
+          "speed_over_ground": 7.92,
+          "course_over_ground": 312.34,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:03Z",
+          "latitude": 14.9938,
+          "longitude": 121.0113,
+          "speed_over_ground": 7.93,
+          "course_over_ground": 312.36,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:04Z",
+          "latitude": 14.9939,
+          "longitude": 121.0114,
+          "speed_over_ground": 7.94,
+          "course_over_ground": 312.38,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:05Z",
+          "latitude": 14.994,
+          "longitude": 121.0115,
+          "speed_over_ground": 7.95,
+          "course_over_ground": 312.4,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:06Z",
+          "latitude": 14.9941,
+          "longitude": 121.0116,
+          "speed_over_ground": 7.96,
+          "course_over_ground": 312.42,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:07Z",
+          "latitude": 14.9942,
+          "longitude": 121.0117,
+          "speed_over_ground": 7.97,
+          "course_over_ground": 312.44,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:08Z",
+          "latitude": 14.9943,
+          "longitude": 121.0118,
+          "speed_over_ground": 7.98,
+          "course_over_ground": 312.46,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:09Z",
+          "latitude": 14.9944,
+          "longitude": 121.0119,
+          "speed_over_ground": 7.99,
+          "course_over_ground": 312.48,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:10Z",
+          "latitude": 14.9945,
+          "longitude": 121.012,
+          "speed_over_ground": 8.0,
+          "course_over_ground": 312.5,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:11Z",
+          "latitude": 14.9946,
+          "longitude": 121.0121,
+          "speed_over_ground": 8.01,
+          "course_over_ground": 312.52,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:12Z",
+          "latitude": 14.9947,
+          "longitude": 121.0122,
+          "speed_over_ground": 8.02,
+          "course_over_ground": 312.54,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:13Z",
+          "latitude": 14.9948,
+          "longitude": 121.0123,
+          "speed_over_ground": 8.03,
+          "course_over_ground": 312.56,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:14Z",
+          "latitude": 14.9949,
+          "longitude": 121.0124,
+          "speed_over_ground": 8.04,
+          "course_over_ground": 312.58,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:15Z",
+          "latitude": 14.995,
+          "longitude": 121.0125,
+          "speed_over_ground": 8.05,
+          "course_over_ground": 312.6,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:16Z",
+          "latitude": 14.9951,
+          "longitude": 121.0126,
+          "speed_over_ground": 8.06,
+          "course_over_ground": 312.62,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:17Z",
+          "latitude": 14.9952,
+          "longitude": 121.0127,
+          "speed_over_ground": 8.07,
+          "course_over_ground": 312.64,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:18Z",
+          "latitude": 14.9953,
+          "longitude": 121.0128,
+          "speed_over_ground": 8.08,
+          "course_over_ground": 312.66,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:19Z",
+          "latitude": 14.9954,
+          "longitude": 121.0129,
+          "speed_over_ground": 8.09,
+          "course_over_ground": 312.68,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:20Z",
+          "latitude": 14.9955,
+          "longitude": 121.013,
+          "speed_over_ground": 8.1,
+          "course_over_ground": 312.7,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:21Z",
+          "latitude": 14.9956,
+          "longitude": 121.0131,
+          "speed_over_ground": 8.11,
+          "course_over_ground": 312.72,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:22Z",
+          "latitude": 14.9957,
+          "longitude": 121.0132,
+          "speed_over_ground": 8.12,
+          "course_over_ground": 312.74,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:23Z",
+          "latitude": 14.9958,
+          "longitude": 121.0133,
+          "speed_over_ground": 8.13,
+          "course_over_ground": 312.76,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:24Z",
+          "latitude": 14.9959,
+          "longitude": 121.0134,
+          "speed_over_ground": 8.14,
+          "course_over_ground": 312.78,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:25Z",
+          "latitude": 14.996,
+          "longitude": 121.0135,
+          "speed_over_ground": 8.15,
+          "course_over_ground": 312.8,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:26Z",
+          "latitude": 14.9961,
+          "longitude": 121.0136,
+          "speed_over_ground": 8.16,
+          "course_over_ground": 312.82,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:27Z",
+          "latitude": 14.9962,
+          "longitude": 121.0137,
+          "speed_over_ground": 8.17,
+          "course_over_ground": 312.84,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:28Z",
+          "latitude": 14.9963,
+          "longitude": 121.0138,
+          "speed_over_ground": 8.18,
+          "course_over_ground": 312.86,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:29Z",
+          "latitude": 14.9964,
+          "longitude": 121.0139,
+          "speed_over_ground": 8.19,
+          "course_over_ground": 312.88,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:30Z",
+          "latitude": 14.9965,
+          "longitude": 121.014,
+          "speed_over_ground": 8.2,
+          "course_over_ground": 312.9,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:31Z",
+          "latitude": 14.9966,
+          "longitude": 121.0141,
+          "speed_over_ground": 8.21,
+          "course_over_ground": 312.92,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:32Z",
+          "latitude": 14.9967,
+          "longitude": 121.0142,
+          "speed_over_ground": 8.22,
+          "course_over_ground": 312.94,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:33Z",
+          "latitude": 14.9968,
+          "longitude": 121.0143,
+          "speed_over_ground": 8.23,
+          "course_over_ground": 312.96,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:34Z",
+          "latitude": 14.9969,
+          "longitude": 121.0144,
+          "speed_over_ground": 8.24,
+          "course_over_ground": 312.98,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:35Z",
+          "latitude": 14.997,
+          "longitude": 121.0145,
+          "speed_over_ground": 8.25,
+          "course_over_ground": 313.0,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:36Z",
+          "latitude": 14.9971,
+          "longitude": 121.0146,
+          "speed_over_ground": 8.26,
+          "course_over_ground": 313.02,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:37Z",
+          "latitude": 14.9972,
+          "longitude": 121.0147,
+          "speed_over_ground": 8.27,
+          "course_over_ground": 313.04,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:38Z",
+          "latitude": 14.9973,
+          "longitude": 121.0148,
+          "speed_over_ground": 8.28,
+          "course_over_ground": 313.06,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:39Z",
+          "latitude": 14.9974,
+          "longitude": 121.0149,
+          "speed_over_ground": 8.29,
+          "course_over_ground": 313.08,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:40Z",
+          "latitude": 14.9975,
+          "longitude": 121.015,
+          "speed_over_ground": 8.3,
+          "course_over_ground": 313.1,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:41Z",
+          "latitude": 14.9976,
+          "longitude": 121.0151,
+          "speed_over_ground": 8.31,
+          "course_over_ground": 313.12,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:42Z",
+          "latitude": 14.9977,
+          "longitude": 121.0152,
+          "speed_over_ground": 8.32,
+          "course_over_ground": 313.14,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:43Z",
+          "latitude": 14.9978,
+          "longitude": 121.0153,
+          "speed_over_ground": 8.33,
+          "course_over_ground": 313.16,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:44Z",
+          "latitude": 14.9979,
+          "longitude": 121.0154,
+          "speed_over_ground": 8.34,
+          "course_over_ground": 313.18,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:45Z",
+          "latitude": 14.998,
+          "longitude": 121.0155,
+          "speed_over_ground": 8.35,
+          "course_over_ground": 313.2,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:46Z",
+          "latitude": 14.9981,
+          "longitude": 121.0156,
+          "speed_over_ground": 8.36,
+          "course_over_ground": 313.22,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:47Z",
+          "latitude": 14.9982,
+          "longitude": 121.0157,
+          "speed_over_ground": 8.37,
+          "course_over_ground": 313.24,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:48Z",
+          "latitude": 14.9983,
+          "longitude": 121.0158,
+          "speed_over_ground": 8.38,
+          "course_over_ground": 313.26,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:49Z",
+          "latitude": 14.9984,
+          "longitude": 121.0159,
+          "speed_over_ground": 8.39,
+          "course_over_ground": 313.28,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:50Z",
+          "latitude": 14.9985,
+          "longitude": 121.016,
+          "speed_over_ground": 8.4,
+          "course_over_ground": 313.3,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:51Z",
+          "latitude": 14.9986,
+          "longitude": 121.0161,
+          "speed_over_ground": 8.41,
+          "course_over_ground": 313.32,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:52Z",
+          "latitude": 14.9987,
+          "longitude": 121.0162,
+          "speed_over_ground": 8.42,
+          "course_over_ground": 313.34,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:53Z",
+          "latitude": 14.9988,
+          "longitude": 121.0163,
+          "speed_over_ground": 8.43,
+          "course_over_ground": 313.36,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:54Z",
+          "latitude": 14.9989,
+          "longitude": 121.0164,
+          "speed_over_ground": 8.44,
+          "course_over_ground": 313.38,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:55Z",
+          "latitude": 14.999,
+          "longitude": 121.0165,
+          "speed_over_ground": 8.45,
+          "course_over_ground": 313.4,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:56Z",
+          "latitude": 14.9991,
+          "longitude": 121.0166,
+          "speed_over_ground": 8.46,
+          "course_over_ground": 313.42,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:57Z",
+          "latitude": 14.9992,
+          "longitude": 121.0167,
+          "speed_over_ground": 8.47,
+          "course_over_ground": 313.44,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:58Z",
+          "latitude": 14.9993,
+          "longitude": 121.0168,
+          "speed_over_ground": 8.48,
+          "course_over_ground": 313.46,
+          "status": 3
+        },
+        {
+          "timestamp": "2025-09-17T12:00:59Z",
+          "latitude": 14.9994,
+          "longitude": 121.0169,
+          "speed_over_ground": 8.49,
+          "course_over_ground": 313.48,
+          "status": 3
+        }
       ]
     },
     {
@@ -4025,11 +5925,486 @@
       "mmsi": "923456789",
       "is_ownership": false,
       "track": [
-        { "timestamp": "2025-09-09T10:07:20Z", "latitude": 15.0122, "longitude": 121.0403, "speed_over_ground": 15.1, "course_over_ground": 152.4, "status": 4 },
-        { "timestamp": "2025-09-09T10:08:20Z", "latitude": 15.0116, "longitude": 121.0415, "speed_over_ground": 15.2, "course_over_ground": 152.6, "status": 4 },
-        { "timestamp": "2025-09-09T10:09:20Z", "latitude": 15.0110, "longitude": 121.0428, "speed_over_ground": 15.3, "course_over_ground": 152.8, "status": 4 },
-        { "timestamp": "2025-09-09T10:10:20Z", "latitude": 15.0104, "longitude": 121.0440, "speed_over_ground": 15.4, "course_over_ground": 153.0, "status": 4 },
-        { "timestamp": "2025-09-09T10:11:20Z", "latitude": 15.0098, "longitude": 121.0452, "speed_over_ground": 15.6, "course_over_ground": 153.3, "status": 4 }
+        {
+          "timestamp": "2025-09-17T12:00:00Z",
+          "latitude": 15.0122,
+          "longitude": 121.0403,
+          "speed_over_ground": 15.1,
+          "course_over_ground": 152.4,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:01Z",
+          "latitude": 15.0123,
+          "longitude": 121.0404,
+          "speed_over_ground": 15.11,
+          "course_over_ground": 152.42,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:02Z",
+          "latitude": 15.0124,
+          "longitude": 121.0405,
+          "speed_over_ground": 15.12,
+          "course_over_ground": 152.44,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:03Z",
+          "latitude": 15.0125,
+          "longitude": 121.0406,
+          "speed_over_ground": 15.13,
+          "course_over_ground": 152.46,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:04Z",
+          "latitude": 15.0126,
+          "longitude": 121.0407,
+          "speed_over_ground": 15.14,
+          "course_over_ground": 152.48,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:05Z",
+          "latitude": 15.0127,
+          "longitude": 121.0408,
+          "speed_over_ground": 15.15,
+          "course_over_ground": 152.5,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:06Z",
+          "latitude": 15.0128,
+          "longitude": 121.0409,
+          "speed_over_ground": 15.16,
+          "course_over_ground": 152.52,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:07Z",
+          "latitude": 15.0129,
+          "longitude": 121.041,
+          "speed_over_ground": 15.17,
+          "course_over_ground": 152.54,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:08Z",
+          "latitude": 15.013,
+          "longitude": 121.0411,
+          "speed_over_ground": 15.18,
+          "course_over_ground": 152.56,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:09Z",
+          "latitude": 15.0131,
+          "longitude": 121.0412,
+          "speed_over_ground": 15.19,
+          "course_over_ground": 152.58,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:10Z",
+          "latitude": 15.0132,
+          "longitude": 121.0413,
+          "speed_over_ground": 15.2,
+          "course_over_ground": 152.6,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:11Z",
+          "latitude": 15.0133,
+          "longitude": 121.0414,
+          "speed_over_ground": 15.21,
+          "course_over_ground": 152.62,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:12Z",
+          "latitude": 15.0134,
+          "longitude": 121.0415,
+          "speed_over_ground": 15.22,
+          "course_over_ground": 152.64,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:13Z",
+          "latitude": 15.0135,
+          "longitude": 121.0416,
+          "speed_over_ground": 15.23,
+          "course_over_ground": 152.66,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:14Z",
+          "latitude": 15.0136,
+          "longitude": 121.0417,
+          "speed_over_ground": 15.24,
+          "course_over_ground": 152.68,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:15Z",
+          "latitude": 15.0137,
+          "longitude": 121.0418,
+          "speed_over_ground": 15.25,
+          "course_over_ground": 152.7,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:16Z",
+          "latitude": 15.0138,
+          "longitude": 121.0419,
+          "speed_over_ground": 15.26,
+          "course_over_ground": 152.72,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:17Z",
+          "latitude": 15.0139,
+          "longitude": 121.042,
+          "speed_over_ground": 15.27,
+          "course_over_ground": 152.74,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:18Z",
+          "latitude": 15.014,
+          "longitude": 121.0421,
+          "speed_over_ground": 15.28,
+          "course_over_ground": 152.76,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:19Z",
+          "latitude": 15.0141,
+          "longitude": 121.0422,
+          "speed_over_ground": 15.29,
+          "course_over_ground": 152.78,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:20Z",
+          "latitude": 15.0142,
+          "longitude": 121.0423,
+          "speed_over_ground": 15.3,
+          "course_over_ground": 152.8,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:21Z",
+          "latitude": 15.0143,
+          "longitude": 121.0424,
+          "speed_over_ground": 15.31,
+          "course_over_ground": 152.82,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:22Z",
+          "latitude": 15.0144,
+          "longitude": 121.0425,
+          "speed_over_ground": 15.32,
+          "course_over_ground": 152.84,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:23Z",
+          "latitude": 15.0145,
+          "longitude": 121.0426,
+          "speed_over_ground": 15.33,
+          "course_over_ground": 152.86,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:24Z",
+          "latitude": 15.0146,
+          "longitude": 121.0427,
+          "speed_over_ground": 15.34,
+          "course_over_ground": 152.88,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:25Z",
+          "latitude": 15.0147,
+          "longitude": 121.0428,
+          "speed_over_ground": 15.35,
+          "course_over_ground": 152.9,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:26Z",
+          "latitude": 15.0148,
+          "longitude": 121.0429,
+          "speed_over_ground": 15.36,
+          "course_over_ground": 152.92,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:27Z",
+          "latitude": 15.0149,
+          "longitude": 121.043,
+          "speed_over_ground": 15.37,
+          "course_over_ground": 152.94,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:28Z",
+          "latitude": 15.015,
+          "longitude": 121.0431,
+          "speed_over_ground": 15.38,
+          "course_over_ground": 152.96,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:29Z",
+          "latitude": 15.0151,
+          "longitude": 121.0432,
+          "speed_over_ground": 15.39,
+          "course_over_ground": 152.98,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:30Z",
+          "latitude": 15.0152,
+          "longitude": 121.0433,
+          "speed_over_ground": 15.4,
+          "course_over_ground": 153.0,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:31Z",
+          "latitude": 15.0153,
+          "longitude": 121.0434,
+          "speed_over_ground": 15.41,
+          "course_over_ground": 153.02,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:32Z",
+          "latitude": 15.0154,
+          "longitude": 121.0435,
+          "speed_over_ground": 15.42,
+          "course_over_ground": 153.04,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:33Z",
+          "latitude": 15.0155,
+          "longitude": 121.0436,
+          "speed_over_ground": 15.43,
+          "course_over_ground": 153.06,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:34Z",
+          "latitude": 15.0156,
+          "longitude": 121.0437,
+          "speed_over_ground": 15.44,
+          "course_over_ground": 153.08,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:35Z",
+          "latitude": 15.0157,
+          "longitude": 121.0438,
+          "speed_over_ground": 15.45,
+          "course_over_ground": 153.1,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:36Z",
+          "latitude": 15.0158,
+          "longitude": 121.0439,
+          "speed_over_ground": 15.46,
+          "course_over_ground": 153.12,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:37Z",
+          "latitude": 15.0159,
+          "longitude": 121.044,
+          "speed_over_ground": 15.47,
+          "course_over_ground": 153.14,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:38Z",
+          "latitude": 15.016,
+          "longitude": 121.0441,
+          "speed_over_ground": 15.48,
+          "course_over_ground": 153.16,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:39Z",
+          "latitude": 15.0161,
+          "longitude": 121.0442,
+          "speed_over_ground": 15.49,
+          "course_over_ground": 153.18,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:40Z",
+          "latitude": 15.0162,
+          "longitude": 121.0443,
+          "speed_over_ground": 15.5,
+          "course_over_ground": 153.2,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:41Z",
+          "latitude": 15.0163,
+          "longitude": 121.0444,
+          "speed_over_ground": 15.51,
+          "course_over_ground": 153.22,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:42Z",
+          "latitude": 15.0164,
+          "longitude": 121.0445,
+          "speed_over_ground": 15.52,
+          "course_over_ground": 153.24,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:43Z",
+          "latitude": 15.0165,
+          "longitude": 121.0446,
+          "speed_over_ground": 15.53,
+          "course_over_ground": 153.26,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:44Z",
+          "latitude": 15.0166,
+          "longitude": 121.0447,
+          "speed_over_ground": 15.54,
+          "course_over_ground": 153.28,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:45Z",
+          "latitude": 15.0167,
+          "longitude": 121.0448,
+          "speed_over_ground": 15.55,
+          "course_over_ground": 153.3,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:46Z",
+          "latitude": 15.0168,
+          "longitude": 121.0449,
+          "speed_over_ground": 15.56,
+          "course_over_ground": 153.32,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:47Z",
+          "latitude": 15.0169,
+          "longitude": 121.045,
+          "speed_over_ground": 15.57,
+          "course_over_ground": 153.34,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:48Z",
+          "latitude": 15.017,
+          "longitude": 121.0451,
+          "speed_over_ground": 15.58,
+          "course_over_ground": 153.36,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:49Z",
+          "latitude": 15.0171,
+          "longitude": 121.0452,
+          "speed_over_ground": 15.59,
+          "course_over_ground": 153.38,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:50Z",
+          "latitude": 15.0172,
+          "longitude": 121.0453,
+          "speed_over_ground": 15.6,
+          "course_over_ground": 153.4,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:51Z",
+          "latitude": 15.0173,
+          "longitude": 121.0454,
+          "speed_over_ground": 15.61,
+          "course_over_ground": 153.42,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:52Z",
+          "latitude": 15.0174,
+          "longitude": 121.0455,
+          "speed_over_ground": 15.62,
+          "course_over_ground": 153.44,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:53Z",
+          "latitude": 15.0175,
+          "longitude": 121.0456,
+          "speed_over_ground": 15.63,
+          "course_over_ground": 153.46,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:54Z",
+          "latitude": 15.0176,
+          "longitude": 121.0457,
+          "speed_over_ground": 15.64,
+          "course_over_ground": 153.48,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:55Z",
+          "latitude": 15.0177,
+          "longitude": 121.0458,
+          "speed_over_ground": 15.65,
+          "course_over_ground": 153.5,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:56Z",
+          "latitude": 15.0178,
+          "longitude": 121.0459,
+          "speed_over_ground": 15.66,
+          "course_over_ground": 153.52,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:57Z",
+          "latitude": 15.0179,
+          "longitude": 121.046,
+          "speed_over_ground": 15.67,
+          "course_over_ground": 153.54,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:58Z",
+          "latitude": 15.018,
+          "longitude": 121.0461,
+          "speed_over_ground": 15.68,
+          "course_over_ground": 153.56,
+          "status": 4
+        },
+        {
+          "timestamp": "2025-09-17T12:00:59Z",
+          "latitude": 15.0181,
+          "longitude": 121.0462,
+          "speed_over_ground": 15.69,
+          "course_over_ground": 153.58,
+          "status": 4
+        }
       ]
     }
   ],
