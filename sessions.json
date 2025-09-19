@@ -8,8 +8,10 @@
         "name": "VDR Upload – MV Horizon",
         "notes": "Collision near port",
         "created_at": "2025-09-06T21:00:00Z",
-        "session_start": "2025-09-17T12:00:00Z",
-        "session_end": "2025-09-17T12:01:00Z",
+        "start_time": "2025-09-17T12:00:00Z",
+        "end_time": "2025-09-17T12:01:00Z",
+        "duration_seconds": 60,
+        "duration_human": "1m",
         "updated_at": "",
         "deleted_at": ""
       },
@@ -6478,128 +6480,165 @@
       ],
       "count": 5
     },
-    "session_alarm": [
-      {
-        "id": 1,
-        "session_id": 1,
-        "vdr_log_id": 2001,
-        "nmea_sentence_id": 3001,
-        "alert_id": "001",
-        "description": "AIS: TX malfunction",
-        "timestamp": "2025-09-09T10:00:00Z",
-        "created_at": "2025-09-09T10:00:05Z",
-        "updated_at": null,
-        "deleted_at": null
-      },
-      {
-        "id": 2,
-        "session_id": 1,
-        "vdr_log_id": 2002,
-        "nmea_sentence_id": 3002,
-        "alert_id": "002",
-        "description": "Heading sensor fail",
-        "timestamp": "2025-09-09T10:01:30Z",
-        "created_at": "2025-09-09T10:01:35Z",
-        "updated_at": null,
-        "deleted_at": null
-      },
-      {
-        "id": 3,
-        "session_id": 1,
-        "vdr_log_id": 2003,
-        "nmea_sentence_id": 3003,
-        "alert_id": "003",
-        "description": "Gyro compass error",
-        "timestamp": "2025-09-09T10:02:45Z",
-        "created_at": "2025-09-09T10:02:50Z",
-        "updated_at": null,
-        "deleted_at": null
-      },
-      {
-        "id": 4,
-        "session_id": 1,
-        "vdr_log_id": 2004,
-        "nmea_sentence_id": 3004,
-        "alert_id": "004",
-        "description": "Engine room fire alarm",
-        "timestamp": "2025-09-09T10:03:15Z",
-        "created_at": "2025-09-09T10:03:20Z",
-        "updated_at": null,
-        "deleted_at": null
-      },
-      {
-        "id": 5,
-        "session_id": 1,
-        "vdr_log_id": 2005,
-        "nmea_sentence_id": 3005,
-        "alert_id": "005",
-        "description": "Low fuel pressure",
-        "timestamp": "2025-09-09T10:04:10Z",
-        "created_at": "2025-09-09T10:04:15Z",
-        "updated_at": null,
-        "deleted_at": null
-      },
-      {
-        "id": 6,
-        "session_id": 1,
-        "vdr_log_id": 2006,
-        "nmea_sentence_id": 3006,
-        "alert_id": "006",
-        "description": "Steering gear failure",
-        "timestamp": "2025-09-09T10:05:25Z",
-        "created_at": "2025-09-09T10:05:30Z",
-        "updated_at": null,
-        "deleted_at": null
-      },
-      {
-        "id": 7,
-        "session_id": 1,
-        "vdr_log_id": 2007,
-        "nmea_sentence_id": 3007,
-        "alert_id": "007",
-        "description": "Bilge high water level",
-        "timestamp": "2025-09-09T10:06:40Z",
-        "created_at": "2025-09-09T10:06:45Z",
-        "updated_at": null,
-        "deleted_at": null
-      },
-      {
-        "id": 8,
-        "session_id": 1,
-        "vdr_log_id": 2008,
-        "nmea_sentence_id": 3008,
-        "alert_id": "008",
-        "description": "Navigation light failure",
-        "timestamp": "2025-09-09T10:07:55Z",
-        "created_at": "2025-09-09T10:08:00Z",
-        "updated_at": null,
-        "deleted_at": null
-      },
-      {
-        "id": 9,
-        "session_id": 1,
-        "vdr_log_id": 2009,
-        "nmea_sentence_id": 3009,
-        "alert_id": "009",
-        "description": "Radar antenna stopped",
-        "timestamp": "2025-09-09T10:09:05Z",
-        "created_at": "2025-09-09T10:09:10Z",
-        "updated_at": null,
-        "deleted_at": null
-      },
-      {
-        "id": 10,
-        "session_id": 1,
-        "vdr_log_id": 2010,
-        "nmea_sentence_id": 3010,
-        "alert_id": "010",
-        "description": "Fire door open",
-        "timestamp": "2025-09-09T10:10:20Z",
-        "created_at": "2025-09-09T10:10:25Z",
-        "updated_at": null,
-        "deleted_at": null
-      }
-    ],
+"session_alarm": [
+  {
+    "id": 1,
+    "session_id": 1,
+    "vdr_log_id": 2001,
+    "nmea_sentence_id": 3001,
+    "alert_id": "001",
+    "description": "AIS: TX malfunction",
+    "timestamp": "2025-09-17T12:00:00Z",
+    "created_at": "2025-09-17T12:00:00Z",
+    "updated_at": null,
+    "deleted_at": null
+  },
+  {
+    "id": 2,
+    "session_id": 1,
+    "vdr_log_id": 2002,
+    "nmea_sentence_id": 3002,
+    "alert_id": "002",
+    "description": "Heading sensor fail",
+    "timestamp": "2025-09-17T12:00:05Z",
+    "created_at": "2025-09-17T12:00:05Z",
+    "updated_at": null,
+    "deleted_at": null
+  },
+  {
+    "id": 3,
+    "session_id": 1,
+    "vdr_log_id": 2003,
+    "nmea_sentence_id": 3003,
+    "alert_id": "003",
+    "description": "Gyro compass error",
+    "timestamp": "2025-09-17T12:00:10Z",
+    "created_at": "2025-09-17T12:00:10Z",
+    "updated_at": null,
+    "deleted_at": null
+  },
+  {
+    "id": 4,
+    "session_id": 1,
+    "vdr_log_id": 2004,
+    "nmea_sentence_id": 3004,
+    "alert_id": "004",
+    "description": "Engine room fire alarm",
+    "timestamp": "2025-09-17T12:00:15Z",
+    "created_at": "2025-09-17T12:00:15Z",
+    "updated_at": null,
+    "deleted_at": null
+  },
+  {
+    "id": 5,
+    "session_id": 1,
+    "vdr_log_id": 2005,
+    "nmea_sentence_id": 3005,
+    "alert_id": "005",
+    "description": "Low fuel pressure",
+    "timestamp": "2025-09-17T12:00:20Z",
+    "created_at": "2025-09-17T12:00:20Z",
+    "updated_at": null,
+    "deleted_at": null
+  },
+  {
+    "id": 6,
+    "session_id": 1,
+    "vdr_log_id": 2006,
+    "nmea_sentence_id": 3006,
+    "alert_id": "006",
+    "description": "Steering gear failure",
+    "timestamp": "2025-09-17T12:00:25Z",
+    "created_at": "2025-09-17T12:00:25Z",
+    "updated_at": null,
+    "deleted_at": null
+  },
+  {
+    "id": 7,
+    "session_id": 1,
+    "vdr_log_id": 2007,
+    "nmea_sentence_id": 3007,
+    "alert_id": "007",
+    "description": "Bilge high water level",
+    "timestamp": "2025-09-17T12:00:30Z",
+    "created_at": "2025-09-17T12:00:30Z",
+    "updated_at": null,
+    "deleted_at": null
+  },
+  {
+    "id": 8,
+    "session_id": 1,
+    "vdr_log_id": 2008,
+    "nmea_sentence_id": 3008,
+    "alert_id": "008",
+    "description": "Navigation light failure",
+    "timestamp": "2025-09-17T12:00:35Z",
+    "created_at": "2025-09-17T12:00:35Z",
+    "updated_at": null,
+    "deleted_at": null
+  },
+  {
+    "id": 9,
+    "session_id": 1,
+    "vdr_log_id": 2009,
+    "nmea_sentence_id": 3009,
+    "alert_id": "009",
+    "description": "Radar antenna stopped",
+    "timestamp": "2025-09-17T12:00:40Z",
+    "created_at": "2025-09-17T12:00:40Z",
+    "updated_at": null,
+    "deleted_at": null
+  },
+  {
+    "id": 10,
+    "session_id": 1,
+    "vdr_log_id": 2010,
+    "nmea_sentence_id": 3010,
+    "alert_id": "010",
+    "description": "Fire door open",
+    "timestamp": "2025-09-17T12:00:45Z",
+    "created_at": "2025-09-17T12:00:45Z",
+    "updated_at": null,
+    "deleted_at": null
+  },
+  {
+    "id": 11,
+    "session_id": 1,
+    "vdr_log_id": 2011,
+    "nmea_sentence_id": 3011,
+    "alert_id": "001",
+    "description": "AIS: TX malfunction",
+    "timestamp": "2025-09-17T12:00:50Z",
+    "created_at": "2025-09-17T12:00:50Z",
+    "updated_at": null,
+    "deleted_at": null
+  },
+  {
+    "id": 12,
+    "session_id": 1,
+    "vdr_log_id": 2012,
+    "nmea_sentence_id": 3012,
+    "alert_id": "002",
+    "description": "Heading sensor fail",
+    "timestamp": "2025-09-17T12:00:55Z",
+    "created_at": "2025-09-17T12:00:55Z",
+    "updated_at": null,
+    "deleted_at": null
+  },
+  {
+    "id": 13,
+    "session_id": 1,
+    "vdr_log_id": 2013,
+    "nmea_sentence_id": 3013,
+    "alert_id": "003",
+    "description": "Gyro compass error",
+    "timestamp": "2025-09-17T12:01:00Z",
+    "created_at": "2025-09-17T12:01:00Z",
+    "updated_at": null,
+    "deleted_at": null
+  }
+]
+,
     "session_cpa_tcpa": [
       {
         "id": 1,
@@ -6651,11 +6690,7 @@
         "timestamp": "2025-09-09T10:06:20Z",
         "risk_level": "High"
       }
-    ],
-      "start_time": "2025-09-06T21:00:00Z",
-      "end_time": "2025-09-06T23:14:00Z",
-      "duration_seconds": 8040,
-      "duration_human": "2h 14m"
+    ]
     }
   },
   {
@@ -6667,8 +6702,10 @@
         "name": "VDR Upload – MV Everest",
         "notes": "Collision near port",
         "created_at": "2025-09-06T21:00:00Z",
-        "session_start": "2025-09-17T12:30:00Z",
-        "session_end": "2025-09-17T12:34:00Z",
+        "start_time": "2025-09-17T12:30:00Z",
+        "end_time": "2025-09-17T12:34:00Z",
+        "duration_seconds": 240,
+        "duration_human": "4m0s",
         "updated_at": "",
         "deleted_at": ""
       },
@@ -6679,11 +6716,7 @@
       "session_ships_ais": [],
       "session_ships": { "data": [], "count": 0 },
       "session_alarm": [],
-      "session_cpa_tcpa": [],
-      "start_time": "2025-09-06T21:00:00Z",
-      "end_time": "2025-09-06T23:14:00Z",
-      "duration_seconds": 0,
-      "duration_human": "0s"
+      "session_cpa_tcpa": []
     }
   }
 ]
