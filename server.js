@@ -12,8 +12,6 @@ const app = express();
 app.use(express.json());
 app.use(cors({ origin: "http://localhost:5173" }));
 
-
-
 // --- JSON Schema (from your message) ---
 const schema = {
   $schema: "http://json-schema.org/draft-07/schema#",
@@ -32,8 +30,6 @@ const schema = {
             name: { type: "string" },
             notes: { type: "string" },
             created_at: { type: "string" },
-            session_start: { type: "string" },
-            session_end: { type: "string" },
             updated_at: { type: "string" },
             deleted_at: { type: "string" },
           },
@@ -272,51 +268,59 @@ const schema = {
             ],
           },
         },
-session_ownship_active_vessels: {
-  type: "array",
-  items: {
-    type: "object",
-    properties: {
-      id: { type: "number" },
-      session_id: { type: "number" },
-      name: { type: "string" },
-      imo: { type: "string" },
-      mmsi: { type: "string" },
-      is_ownership: { type: "boolean" },
-      track: {
-        type: "array",
-        items: {
-          type: "object",
-          properties: {
-            vdr_log_id: { type: "number" },
-            nmea_sentence_id: { type: "number" },
-            speed_over_ground: { type: "number" },
-            course_over_ground: { type: "number" },
-            status: { type: "number" },
-            latitude: { type: "number" },
-            longitude: { type: "number" },
-            timestamp: { type: "string" },
-            created_at: { type: "string" },
-            updated_at: {},
-            deleted_at: {}
+        session_ownship_active_vessels: {
+          type: "array",
+          items: {
+            type: "object",
+            properties: {
+              id: { type: "number" },
+              session_id: { type: "number" },
+              name: { type: "string" },
+              imo: { type: "string" },
+              mmsi: { type: "string" },
+              is_ownership: { type: "boolean" },
+              track: {
+                type: "array",
+                items: {
+                  type: "object",
+                  properties: {
+                    vdr_log_id: { type: "number" },
+                    nmea_sentence_id: { type: "number" },
+                    speed_over_ground: { type: "number" },
+                    course_over_ground: { type: "number" },
+                    status: { type: "number" },
+                    latitude: { type: "number" },
+                    longitude: { type: "number" },
+                    timestamp: { type: "string" },
+                    created_at: { type: "string" },
+                    updated_at: {},
+                    deleted_at: {},
+                  },
+                  required: [
+                    "vdr_log_id",
+                    "nmea_sentence_id",
+                    "speed_over_ground",
+                    "course_over_ground",
+                    "status",
+                    "latitude",
+                    "longitude",
+                    "timestamp",
+                    "created_at",
+                  ],
+                },
+              },
+            },
+            required: [
+              "id",
+              "session_id",
+              "name",
+              "imo",
+              "mmsi",
+              "is_ownership",
+              "track",
+            ],
           },
-          required: [
-            "vdr_log_id",
-            "nmea_sentence_id",
-            "speed_over_ground",
-            "course_over_ground",
-            "status",
-            "latitude",
-            "longitude",
-            "timestamp",
-            "created_at"
-          ]
-        }
-      }
-    },
-    required: ["id", "session_id", "name", "imo", "mmsi", "is_ownership", "track"]
-  }
-},
+        },
 
         session_ships: {
           type: "object",
@@ -426,7 +430,7 @@ session_ownship_active_vessels: {
         "session_ownship_telemetry",
         "session_ships_ais",
         "session_ships",
-  "session_ownship_active_vessels",
+        "session_ownship_active_vessels",
         "session_alarm",
         "session_cpa_tcpa",
         "start_time",
@@ -458,17 +462,23 @@ async function loadFromFile() {
     const parsed = JSON.parse(raw);
     if (Array.isArray(parsed)) {
       sessions = parsed;
-      console.log(`Loaded ${sessions.length} session(s) from file (array format).`);
+      console.log(
+        `Loaded ${sessions.length} session(s) from file (array format).`
+      );
     } else if (parsed && typeof parsed === "object" && parsed.data) {
       // File contains a single session object (your current sample). Wrap it.
       sessions = [parsed];
-      console.log("Loaded 1 session from file (single object wrapped into array).");
+      console.log(
+        "Loaded 1 session from file (single object wrapped into array)."
+      );
     } else {
-      console.warn("sessions.json format not recognized. Starting with empty list.");
+      console.warn(
+        "sessions.json format not recognized. Starting with empty list."
+      );
       sessions = [];
     }
   } catch (err) {
-    if (err.code === 'ENOENT') {
+    if (err.code === "ENOENT") {
       console.warn("sessions.json not found. Starting with empty list.");
     } else {
       console.error("Failed to load sessions.json:", err);
@@ -497,7 +507,10 @@ app.post("/session", async (req, res) => {
       return res.status(400).json({ success: false, errors: validate.errors });
     }
 
-    const maxExistingId = sessions.reduce((max, s) => Math.max(max, s?.data?.session_data?.id || 0), 0);
+    const maxExistingId = sessions.reduce(
+      (max, s) => Math.max(max, s?.data?.session_data?.id || 0),
+      0
+    );
     const newId = maxExistingId + 1;
     if (payload?.data?.session_data) {
       payload.data.session_data.id = newId;
@@ -505,13 +518,16 @@ app.post("/session", async (req, res) => {
 
     sessions.push(payload);
     await saveToFile();
-    return res.status(201).json({ success: true, message: "Session saved", id: newId });
+    return res
+      .status(201)
+      .json({ success: true, message: "Session saved", id: newId });
   } catch (err) {
     console.error("POST /session failed:", err);
-    return res.status(500).json({ success: false, message: "Internal server error" });
+    return res
+      .status(500)
+      .json({ success: false, message: "Internal server error" });
   }
 });
-
 
 // GET /session (list or detail)
 app.get("/session", (req, res) => {
@@ -520,12 +536,17 @@ app.get("/session", (req, res) => {
 
     if (id) {
       const numericId = parseInt(id, 10);
-      const session = sessions.find(s => s?.data?.session_data?.id === numericId);
-      if (!session) return res.status(404).json({ success: false, message: "Session not found" });
+      const session = sessions.find(
+        (s) => s?.data?.session_data?.id === numericId
+      );
+      if (!session)
+        return res
+          .status(404)
+          .json({ success: false, message: "Session not found" });
       return res.json(session); // full detailed schema
     }
 
-    const list = sessions.map(s => s.data.session_data);
+    const list = sessions.map((s) => s.data.session_data);
     return res.json({
       success: true,
       count: list.length,
@@ -538,7 +559,9 @@ app.get("/session", (req, res) => {
     });
   } catch (err) {
     console.error("GET /session failed:", err);
-    return res.status(500).json({ success: false, message: "Internal server error" });
+    return res
+      .status(500)
+      .json({ success: false, message: "Internal server error" });
   }
 });
 
@@ -555,10 +578,44 @@ app.delete("/session", async (req, res) => {
     return res.json({ success: true, message: "Deleted all stored sessions" });
   } catch (err) {
     console.error("DELETE /session failed:", err);
-    return res.status(500).json({ success: false, message: "Internal server error" });
+    return res
+      .status(500)
+      .json({ success: false, message: "Internal server error" });
   }
 });
+app.delete("/sessionalert/:alertId", async (req, res) => {
+  try {
+    const { alertId } = req.params;
+    const numericId = parseInt(alertId, 10);
 
+    let deleted = false;
+
+    sessions = sessions.map((s) => {
+      if (Array.isArray(s.data?.session_alarm)) {
+        const before = s.data.session_alarm.length;
+        s.data.session_alarm = s.data.session_alarm.filter(
+          (a) => a.id !== numericId
+        );
+        if (s.data.session_alarm.length < before) {
+          deleted = true;
+        }
+      }
+      return s;
+    });
+
+    if (deleted) {
+      await saveToFile();
+      return res.json({ success: true, message: `Deleted alert ${numericId}` });
+    }
+
+    return res.status(404).json({ success: false, message: "Alert not found" });
+  } catch (err) {
+    console.error("DELETE /sessionalert failed:", err);
+    return res
+      .status(500)
+      .json({ success: false, message: "Internal server error" });
+  }
+});
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
